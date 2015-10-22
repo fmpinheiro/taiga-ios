@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5507EC7C1BD8623D003C3A43 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5507EC7B1BD8623D003C3A43 /* User.swift */; settings = {ASSET_TAGS = (); }; };
+		5507EC7E1BD8636B003C3A43 /* ResponseObjectSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5507EC7D1BD8636B003C3A43 /* ResponseObjectSerializable.swift */; settings = {ASSET_TAGS = (); }; };
+		5507EC801BD86444003C3A43 /* ResponseCollectionSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5507EC7F1BD86444003C3A43 /* ResponseCollectionSerializable.swift */; settings = {ASSET_TAGS = (); }; };
 		55379EE61BC7345A00F95E11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55379EE51BC7345A00F95E11 /* AppDelegate.swift */; };
 		55379EE81BC7345A00F95E11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55379EE71BC7345A00F95E11 /* ViewController.swift */; };
 		55379EEB1BC7345A00F95E11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55379EE91BC7345A00F95E11 /* Main.storyboard */; };
@@ -14,6 +17,7 @@
 		55379EF01BC7345A00F95E11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55379EEE1BC7345A00F95E11 /* LaunchScreen.storyboard */; };
 		55379EFB1BC7345A00F95E11 /* taiga_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55379EFA1BC7345A00F95E11 /* taiga_iosTests.swift */; };
 		55379F061BC7345A00F95E11 /* taiga_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55379F051BC7345A00F95E11 /* taiga_iosUITests.swift */; };
+		D87D8876BAFE9C7B7D6B1D51 /* Pods_taiga_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F89A3A6922DDB111C72383B7 /* Pods_taiga_ios.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5507EC7B1BD8623D003C3A43 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5507EC7D1BD8636B003C3A43 /* ResponseObjectSerializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseObjectSerializable.swift; sourceTree = "<group>"; };
+		5507EC7F1BD86444003C3A43 /* ResponseCollectionSerializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseCollectionSerializable.swift; sourceTree = "<group>"; };
 		55379EE21BC7345A00F95E11 /* taiga-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "taiga-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55379EE51BC7345A00F95E11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55379EE71BC7345A00F95E11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,9 @@
 		55379F011BC7345A00F95E11 /* taiga-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "taiga-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55379F051BC7345A00F95E11 /* taiga_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taiga_iosUITests.swift; sourceTree = "<group>"; };
 		55379F071BC7345A00F95E11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A531D5DC9D3A5B89156E5278 /* Pods-taiga-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taiga-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-taiga-ios/Pods-taiga-ios.release.xcconfig"; sourceTree = "<group>"; };
+		BAD57CF3EE25EEBE1C5CD3B2 /* Pods-taiga-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taiga-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-taiga-ios/Pods-taiga-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		F89A3A6922DDB111C72383B7 /* Pods_taiga_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taiga_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D87D8876BAFE9C7B7D6B1D51 /* Pods_taiga_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +85,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3796C9601B818B5D7CC2C9B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAD57CF3EE25EEBE1C5CD3B2 /* Pods-taiga-ios.debug.xcconfig */,
+				A531D5DC9D3A5B89156E5278 /* Pods-taiga-ios.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		55379ED91BC7345A00F95E11 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +101,8 @@
 				55379EF91BC7345A00F95E11 /* taiga-iosTests */,
 				55379F041BC7345A00F95E11 /* taiga-iosUITests */,
 				55379EE31BC7345A00F95E11 /* Products */,
+				3796C9601B818B5D7CC2C9B4 /* Pods */,
+				C80B1DB710795FCBB0646957 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +121,9 @@
 			children = (
 				55379EE51BC7345A00F95E11 /* AppDelegate.swift */,
 				55379EE71BC7345A00F95E11 /* ViewController.swift */,
+				5507EC7B1BD8623D003C3A43 /* User.swift */,
+				5507EC7D1BD8636B003C3A43 /* ResponseObjectSerializable.swift */,
+				5507EC7F1BD86444003C3A43 /* ResponseCollectionSerializable.swift */,
 				55379EE91BC7345A00F95E11 /* Main.storyboard */,
 				55379EEC1BC7345A00F95E11 /* Assets.xcassets */,
 				55379EEE1BC7345A00F95E11 /* LaunchScreen.storyboard */,
@@ -125,6 +150,14 @@
 			path = "taiga-iosUITests";
 			sourceTree = "<group>";
 		};
+		C80B1DB710795FCBB0646957 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F89A3A6922DDB111C72383B7 /* Pods_taiga_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55379F0A1BC7345A00F95E11 /* Build configuration list for PBXNativeTarget "taiga-ios" */;
 			buildPhases = (
+				9D1A77DA96721D08A27040CD /* Check Pods Manifest.lock */,
 				55379EDE1BC7345A00F95E11 /* Sources */,
 				55379EDF1BC7345A00F95E11 /* Frameworks */,
 				55379EE01BC7345A00F95E11 /* Resources */,
+				E401588BC4529A90B0AD83C3 /* Embed Pods Frameworks */,
+				57CEF4413FF20D2FFBD08BD8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,13 +286,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		57CEF4413FF20D2FFBD08BD8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-taiga-ios/Pods-taiga-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D1A77DA96721D08A27040CD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E401588BC4529A90B0AD83C3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-taiga-ios/Pods-taiga-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		55379EDE1BC7345A00F95E11 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5507EC7E1BD8636B003C3A43 /* ResponseObjectSerializable.swift in Sources */,
 				55379EE81BC7345A00F95E11 /* ViewController.swift in Sources */,
+				5507EC801BD86444003C3A43 /* ResponseCollectionSerializable.swift in Sources */,
 				55379EE61BC7345A00F95E11 /* AppDelegate.swift in Sources */,
+				5507EC7C1BD8623D003C3A43 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +483,7 @@
 		};
 		55379F0B1BC7345A00F95E11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAD57CF3EE25EEBE1C5CD3B2 /* Pods-taiga-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "taiga-ios/Info.plist";
@@ -407,6 +495,7 @@
 		};
 		55379F0C1BC7345A00F95E11 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A531D5DC9D3A5B89156E5278 /* Pods-taiga-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "taiga-ios/Info.plist";
@@ -483,6 +572,7 @@
 				55379F0C1BC7345A00F95E11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55379F0D1BC7345A00F95E11 /* Build configuration list for PBXNativeTarget "taiga-iosTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +581,7 @@
 				55379F0F1BC7345A00F95E11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55379F101BC7345A00F95E11 /* Build configuration list for PBXNativeTarget "taiga-iosUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +590,7 @@
 				55379F121BC7345A00F95E11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

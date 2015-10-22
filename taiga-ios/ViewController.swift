@@ -7,9 +7,15 @@
 //
 
 import UIKit
+import Alamofire
 
 class ViewController: UIViewController {
 
+    let LOGIN_URL = "https://api.taiga.io/api/v1/auth"
+    
+    @IBOutlet weak var lblUsername: UITextField!
+    @IBOutlet weak var lblPassword: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +26,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func doLogin(sender: AnyObject) {
+        if(lblUsername.hasText() && lblPassword.hasText()){
+            Alamofire.request(.POST, LOGIN_URL, parameters : ["type": "normal", "username": lblUsername.text!, "password": lblPassword.text!], encoding: .JSON).responseObject { (response: Response<User, NSError>) in
+                debugPrint(response.result.value?.authToken as String!)
+            }
+        }
+    }
 
 }
 
