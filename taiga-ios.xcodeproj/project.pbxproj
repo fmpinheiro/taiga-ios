@@ -10,8 +10,9 @@
 		5507EC7C1BD8623D003C3A43 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5507EC7B1BD8623D003C3A43 /* User.swift */; settings = {ASSET_TAGS = (); }; };
 		5507EC7E1BD8636B003C3A43 /* ResponseObjectSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5507EC7D1BD8636B003C3A43 /* ResponseObjectSerializable.swift */; settings = {ASSET_TAGS = (); }; };
 		5507EC801BD86444003C3A43 /* ResponseCollectionSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5507EC7F1BD86444003C3A43 /* ResponseCollectionSerializable.swift */; settings = {ASSET_TAGS = (); }; };
+		5507EC821BD86F88003C3A43 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5507EC811BD86F88003C3A43 /* MainController.swift */; settings = {ASSET_TAGS = (); }; };
 		55379EE61BC7345A00F95E11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55379EE51BC7345A00F95E11 /* AppDelegate.swift */; };
-		55379EE81BC7345A00F95E11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55379EE71BC7345A00F95E11 /* ViewController.swift */; };
+		55379EE81BC7345A00F95E11 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55379EE71BC7345A00F95E11 /* LoginController.swift */; };
 		55379EEB1BC7345A00F95E11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55379EE91BC7345A00F95E11 /* Main.storyboard */; };
 		55379EED1BC7345A00F95E11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55379EEC1BC7345A00F95E11 /* Assets.xcassets */; };
 		55379EF01BC7345A00F95E11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55379EEE1BC7345A00F95E11 /* LaunchScreen.storyboard */; };
@@ -41,9 +42,10 @@
 		5507EC7B1BD8623D003C3A43 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		5507EC7D1BD8636B003C3A43 /* ResponseObjectSerializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseObjectSerializable.swift; sourceTree = "<group>"; };
 		5507EC7F1BD86444003C3A43 /* ResponseCollectionSerializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseCollectionSerializable.swift; sourceTree = "<group>"; };
+		5507EC811BD86F88003C3A43 /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		55379EE21BC7345A00F95E11 /* taiga-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "taiga-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55379EE51BC7345A00F95E11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		55379EE71BC7345A00F95E11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55379EE71BC7345A00F95E11 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		55379EEA1BC7345A00F95E11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55379EEC1BC7345A00F95E11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55379EEF1BC7345A00F95E11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -120,7 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				55379EE51BC7345A00F95E11 /* AppDelegate.swift */,
-				55379EE71BC7345A00F95E11 /* ViewController.swift */,
+				55379EE71BC7345A00F95E11 /* LoginController.swift */,
 				5507EC7B1BD8623D003C3A43 /* User.swift */,
 				5507EC7D1BD8636B003C3A43 /* ResponseObjectSerializable.swift */,
 				5507EC7F1BD86444003C3A43 /* ResponseCollectionSerializable.swift */,
@@ -128,6 +130,7 @@
 				55379EEC1BC7345A00F95E11 /* Assets.xcassets */,
 				55379EEE1BC7345A00F95E11 /* LaunchScreen.storyboard */,
 				55379EF11BC7345A00F95E11 /* Info.plist */,
+				5507EC811BD86F88003C3A43 /* MainController.swift */,
 			);
 			path = "taiga-ios";
 			sourceTree = "<group>";
@@ -340,9 +343,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5507EC7E1BD8636B003C3A43 /* ResponseObjectSerializable.swift in Sources */,
-				55379EE81BC7345A00F95E11 /* ViewController.swift in Sources */,
+				55379EE81BC7345A00F95E11 /* LoginController.swift in Sources */,
 				5507EC801BD86444003C3A43 /* ResponseCollectionSerializable.swift in Sources */,
 				55379EE61BC7345A00F95E11 /* AppDelegate.swift in Sources */,
+				5507EC821BD86F88003C3A43 /* MainController.swift in Sources */,
 				5507EC7C1BD8623D003C3A43 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

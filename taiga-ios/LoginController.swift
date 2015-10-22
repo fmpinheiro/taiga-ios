@@ -29,7 +29,9 @@ class LoginController: UIViewController {
     @IBAction func doLogin(sender: AnyObject) {
         if(lblUsername.hasText() && lblPassword.hasText()){
             Alamofire.request(.POST, LOGIN_URL, parameters : ["type": "normal", "username": lblUsername.text!, "password": lblPassword.text!], encoding: .JSON).responseObject { (response: Response<User, NSError>) in
-                debugPrint(response.result.value?.authToken as String!)
+                let view: UIViewController = self.storyboard?.instantiateViewControllerWithIdentifier("main") as! MainController
+                (view as! MainController).setUser(response.result.value! as User)
+                self.presentViewController(view, animated:true, completion:nil)
             }
         }
     }
