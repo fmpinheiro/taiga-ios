@@ -9,7 +9,7 @@
 import UIKit
 import Alamofire
 
-class ViewController: UIViewController {
+class LoginController: UIViewController {
 
     let LOGIN_URL = "https://api.taiga.io/api/v1/auth"
     
