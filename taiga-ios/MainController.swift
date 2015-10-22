@@ -14,7 +14,7 @@ class MainController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("TODO: List projects using this auth token: \(user.authToken) 😎")
+        print("TODO: List projects using this auth token: \(user.authToken!) 😎")
     }
     
     override func didReceiveMemoryWarning() {

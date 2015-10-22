@@ -9,11 +9,11 @@
 import Foundation
 
 final class User: ResponseObjectSerializable {
-    let fullName: String
-    let authToken: String
+    let fullName: String?
+    let authToken: String?
     
     init?(response: NSHTTPURLResponse, representation: AnyObject) {
-        self.fullName = representation.valueForKeyPath("full_name") as! String
-        self.authToken = representation.valueForKeyPath("auth_token") as! String
+        self.fullName = representation.valueForKeyPath("full_name") as? String
+        self.authToken = representation.valueForKeyPath("auth_token") as? String
     }
 }
