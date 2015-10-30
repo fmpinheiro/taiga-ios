@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -37,14 +37,20 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                             </textField>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="0ho-Ho-xzV">
+                                <rect key="frame" x="290" y="290" width="20" height="20"/>
+                                <animations/>
+                            </activityIndicatorView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Qa0-aS-zdX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="3dZ-ak-ndQ"/>
+                            <constraint firstItem="0ho-Ho-xzV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SA3-kl-p64"/>
                             <constraint firstItem="A1A-ZE-LtA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="Wr0-e0-FB6"/>
                             <constraint firstAttribute="trailingMargin" secondItem="A1A-ZE-LtA" secondAttribute="trailing" constant="30" id="b53-NO-Dzw"/>
                             <constraint firstItem="a8R-gV-vKa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="1" id="hh6-He-9ua"/>
+                            <constraint firstItem="0ho-Ho-xzV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="iWn-7N-44K"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Qa0-aS-zdX" secondAttribute="trailing" constant="30" id="pR4-GB-nXs"/>
                             <constraint firstAttribute="trailingMargin" secondItem="a8R-gV-vKa" secondAttribute="trailing" constant="1" id="uZh-Cl-zRh"/>
                         </constraints>
@@ -52,6 +58,7 @@
                     <connections>
                         <outlet property="lblPassword" destination="A1A-ZE-LtA" id="h9n-5B-5RC"/>
                         <outlet property="lblUsername" destination="Qa0-aS-zdX" id="hwq-S5-LgN"/>
+                        <outlet property="loading" destination="0ho-Ho-xzV" id="ukH-SJ-WDZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -15,6 +15,7 @@ class LoginController: UIViewController {
     
     @IBOutlet weak var lblUsername: UITextField!
     @IBOutlet weak var lblPassword: UITextField!
+    @IBOutlet weak var loading: UIActivityIndicatorView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +29,8 @@ class LoginController: UIViewController {
 
     @IBAction func doLogin(sender: AnyObject) {
         if(lblUsername.hasText() && lblPassword.hasText()){
+            loading.startAnimating()
+            self.view.userInteractionEnabled = false
             Alamofire.request(.POST, LOGIN_URL, parameters : ["type": "normal", "username": lblUsername.text!, "password": lblPassword.text!], encoding: .JSON).responseObject { (response: Response<User, NSError>) in
                 let user: User = response.result.value! as User
                 if user.authToken != nil {
@@ -37,6 +40,8 @@ class LoginController: UIViewController {
                 } else {
                     print("TODO: Let the user know that the login failed")
                 }
+                self.view.userInteractionEnabled = true
+                self.loading.stopAnimating()
             }
         }
     }
