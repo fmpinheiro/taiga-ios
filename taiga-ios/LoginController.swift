@@ -33,13 +33,18 @@ class LoginController: UIViewController {
             loading.startAnimating()
             self.view.userInteractionEnabled = false
             Alamofire.request(.POST, LOGIN_URL, parameters : ["type": "normal", "username": lblUsername.text!, "password": lblPassword.text!], encoding: .JSON).responseObject { (response: Response<User, NSError>) in
-                let user: User = response.result.value! as User
-                if user.authToken != nil {
-                    let view: UIViewController = self.storyboard?.instantiateViewControllerWithIdentifier("main") as! MainController
-                    (view as! MainController).setUser(user)
-                    self.presentViewController(view, animated:true, completion:nil)
+                if let value = response.result.value {
+                    let user: User = value
+                    if user.authToken != nil {
+                        let view: UIViewController = self.storyboard?.instantiateViewControllerWithIdentifier("main") as! MainController
+                        (view as! MainController).setUser(user)
+                        self.presentViewController(view, animated:true, completion:nil)
+                    } else {
+                        JLToast.makeText("Login failed").show()
+                    }
+                    
                 } else {
-                    JLToast.makeText("Login failed").show()
+                    JLToast.makeText("Connection problem").show()
                 }
                 self.view.userInteractionEnabled = true
                 self.loading.stopAnimating()
