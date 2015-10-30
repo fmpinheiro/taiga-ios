@@ -76,9 +76,41 @@
                     <view key="view" contentMode="scaleToFill" id="x2y-Sh-NhT">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="GDK-hg-65c">
+                                <rect key="frame" x="0.0" y="28" width="600" height="572"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="projectCell" id="Tfe-yk-VTM">
+                                        <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Tfe-yk-VTM" id="cRa-XH-6jf">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <animations/>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="dGD-GD-3zP" id="x6q-EO-rN4"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="GDK-hg-65c" secondAttribute="trailing" constant="-20" id="6N4-oq-9WQ"/>
+                            <constraint firstItem="GDK-hg-65c" firstAttribute="leading" secondItem="x2y-Sh-NhT" secondAttribute="leadingMargin" constant="-20" id="MDt-8f-SjQ"/>
+                            <constraint firstItem="GDK-hg-65c" firstAttribute="top" secondItem="uAp-0a-QAx" secondAttribute="bottom" constant="8" id="Xfs-Ao-96u"/>
+                            <constraint firstItem="fhv-Wm-DmL" firstAttribute="top" secondItem="GDK-hg-65c" secondAttribute="bottom" id="dxh-gv-hsz"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="GDK-hg-65c" id="dox-nH-7rK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1s7-nC-WnN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

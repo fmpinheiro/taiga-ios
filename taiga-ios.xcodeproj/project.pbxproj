@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5507EC7C1BD8623D003C3A43 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5507EC7B1BD8623D003C3A43 /* User.swift */; settings = {ASSET_TAGS = (); }; };
-		5507EC7E1BD8636B003C3A43 /* ResponseObjectSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5507EC7D1BD8636B003C3A43 /* ResponseObjectSerializable.swift */; settings = {ASSET_TAGS = (); }; };
-		5507EC801BD86444003C3A43 /* ResponseCollectionSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5507EC7F1BD86444003C3A43 /* ResponseCollectionSerializable.swift */; settings = {ASSET_TAGS = (); }; };
-		5507EC821BD86F88003C3A43 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5507EC811BD86F88003C3A43 /* MainController.swift */; settings = {ASSET_TAGS = (); }; };
+		5507EC7C1BD8623D003C3A43 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5507EC7B1BD8623D003C3A43 /* User.swift */; };
+		5507EC7E1BD8636B003C3A43 /* ResponseObjectSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5507EC7D1BD8636B003C3A43 /* ResponseObjectSerializable.swift */; };
+		5507EC801BD86444003C3A43 /* ResponseCollectionSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5507EC7F1BD86444003C3A43 /* ResponseCollectionSerializable.swift */; };
+		5507EC821BD86F88003C3A43 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5507EC811BD86F88003C3A43 /* MainController.swift */; };
 		55379EE61BC7345A00F95E11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55379EE51BC7345A00F95E11 /* AppDelegate.swift */; };
 		55379EE81BC7345A00F95E11 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55379EE71BC7345A00F95E11 /* LoginController.swift */; };
 		55379EEB1BC7345A00F95E11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55379EE91BC7345A00F95E11 /* Main.storyboard */; };
@@ -18,6 +18,7 @@
 		55379EF01BC7345A00F95E11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55379EEE1BC7345A00F95E11 /* LaunchScreen.storyboard */; };
 		55379EFB1BC7345A00F95E11 /* taiga_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55379EFA1BC7345A00F95E11 /* taiga_iosTests.swift */; };
 		55379F061BC7345A00F95E11 /* taiga_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55379F051BC7345A00F95E11 /* taiga_iosUITests.swift */; };
+		558B9DFD1BE39296004A906C /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558B9DFC1BE39296004A906C /* Project.swift */; };
 		D87D8876BAFE9C7B7D6B1D51 /* Pods_taiga_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F89A3A6922DDB111C72383B7 /* Pods_taiga_ios.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		55379F011BC7345A00F95E11 /* taiga-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "taiga-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55379F051BC7345A00F95E11 /* taiga_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taiga_iosUITests.swift; sourceTree = "<group>"; };
 		55379F071BC7345A00F95E11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		558B9DFC1BE39296004A906C /* Project.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
 		A531D5DC9D3A5B89156E5278 /* Pods-taiga-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taiga-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-taiga-ios/Pods-taiga-ios.release.xcconfig"; sourceTree = "<group>"; };
 		BAD57CF3EE25EEBE1C5CD3B2 /* Pods-taiga-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taiga-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-taiga-ios/Pods-taiga-ios.debug.xcconfig"; sourceTree = "<group>"; };
 		F89A3A6922DDB111C72383B7 /* Pods_taiga_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taiga_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				55379EE51BC7345A00F95E11 /* AppDelegate.swift */,
+				558B9DFC1BE39296004A906C /* Project.swift */,
 				55379EE71BC7345A00F95E11 /* LoginController.swift */,
 				5507EC7B1BD8623D003C3A43 /* User.swift */,
 				5507EC7D1BD8636B003C3A43 /* ResponseObjectSerializable.swift */,
@@ -347,6 +350,7 @@
 				5507EC801BD86444003C3A43 /* ResponseCollectionSerializable.swift in Sources */,
 				55379EE61BC7345A00F95E11 /* AppDelegate.swift in Sources */,
 				5507EC821BD86F88003C3A43 /* MainController.swift in Sources */,
+				558B9DFD1BE39296004A906C /* Project.swift in Sources */,
 				5507EC7C1BD8623D003C3A43 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
