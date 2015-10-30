@@ -19,7 +19,7 @@
 		55379EFB1BC7345A00F95E11 /* taiga_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55379EFA1BC7345A00F95E11 /* taiga_iosTests.swift */; };
 		55379F061BC7345A00F95E11 /* taiga_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55379F051BC7345A00F95E11 /* taiga_iosUITests.swift */; };
 		558B9DFD1BE39296004A906C /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558B9DFC1BE39296004A906C /* Project.swift */; };
-		D87D8876BAFE9C7B7D6B1D51 /* Pods_taiga_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F89A3A6922DDB111C72383B7 /* Pods_taiga_ios.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		D87D8876BAFE9C7B7D6B1D51 /* Pods_taiga_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F89A3A6922DDB111C72383B7 /* Pods_taiga_ios.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */

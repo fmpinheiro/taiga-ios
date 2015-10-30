@@ -7,96 +7,146 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10CB244D7AB9C4B990C23C72534C9F10 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1100F0CC167BE766B94AE61B4442EC /* Request.swift */; };
-		10EB5D106E5C07C1D3CAEEF74D59EC34 /* Pods-taiga-ios-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11F6ACDEAF934C724C43EDA6C2368802 /* Pods-taiga-ios-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		21A210B430C8B0001E91794A6DC8FBC1 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C467221DFF20608D279D2312207DCA0E /* Validation.swift */; };
-		3B73755FD321595FE5C2CDB33E426961 /* Pods-taiga-ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E9F7ED517069B9D7E17E4E697DCEA /* Pods-taiga-ios-dummy.m */; };
-		3BA5A2D94C3423F9D3A6F6A84635E43E /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF07D787EB59DA2287AB33640701ED90 /* Result.swift */; };
-		3DCE071D254577ED4DD9A937927F6D4C /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A0E5CADD7C0CCE25D2E2B99BF2A9CE /* Upload.swift */; };
-		44ACB38022113CD17201B1C2D0AEEDB0 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4D210629BD73E72EFAAD1A88463498 /* ServerTrustPolicy.swift */; };
-		49A2FB2634ECA7F0D62F96FD27A8A4DB /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52618A6940FA85582DDB088747FA49D5 /* Stream.swift */; };
-		5396C7848A29A0F9C361AAC774282AE0 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664D3ED8116EABC7862BA666C1A72DBC /* Error.swift */; };
-		6D07F0B444BE85DF0141C2ECBBAAA3C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 276CCD05B982D31CE342C032D19641B4 /* Foundation.framework */; };
-		7761C19518082BA2A2A635A034F381EE /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479832D329C6166447A97F03DC90EF11 /* ParameterEncoding.swift */; };
-		8627534A70CB8D3CB09C1591925DA97C /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5400ED64816C48F167EFA367296B3CB0 /* Alamofire-dummy.m */; };
-		8EAD62C95F5C0D5889BC502A763545CD /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BBFE7A10FA870F3786344781AD5A53 /* Alamofire.swift */; };
-		9BB897F79746EABF4AA94C382C2701C2 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C80D99391EAF37066E88165B1A8DFD /* MultipartFormData.swift */; };
-		9CD1F3AA826DB25B838FF6E73D550294 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B27EEA8EF212C3F8332461B551D0A7C /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B3EB5E66DFCFF078E56AD3AC9516E59A /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39E1716AE173A12EA35DF964982C351 /* Download.swift */; };
-		B575F39C2ED167A9C378645A7AEB75C4 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011F2D7E29ABD9D98D21F65036E9D5EC /* Manager.swift */; };
-		C0439809EF9BCFBDEB4582048AD3F7EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 276CCD05B982D31CE342C032D19641B4 /* Foundation.framework */; };
-		E9162250ADA619CCD43E795747CFC781 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7F93399AF772DB35BC4128F6231ACC /* ResponseSerialization.swift */; };
-		F6E480C3E3A17EE39CC60A01FC20749A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A1695EFF57B829655CAE11ABBD7D5A /* Response.swift */; };
+		03F494989CC1A8857B68A317D5D6860F /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7391758D433D358D53EF4554A02F9CA /* Response.swift */; };
+		0681ADC8BAE2C3185F13487BAAB4D9DD /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBFE2224B60FA15D751ADB9F67B46DE /* Upload.swift */; };
+		1C9B3720414A90252912D0EC79A3065E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E642B1A057ADA2ABEF90BE2417F349C1 /* QuartzCore.framework */; };
+		2C5450AC69398958CF6F7539EF7D99E5 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B282061459D28B94B3C5A27A1554AFC0 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33A2DA62438CCAA8D0EE1DF05E05D2F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91413329813FA6FE5A78842159E69621 /* Foundation.framework */; };
+		4B8366BDA7E9D6F1174A49CC80A7C1B1 /* JLToastCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B6F80EF014D8AF1DB92000DD0B60C2 /* JLToastCenter.swift */; };
+		4DE5FCC41D100B113B6645EA64410F16 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F488B2EF382AF7F0076AE8D6838694B2 /* ParameterEncoding.swift */; };
+		6659D355BE4D70BB751DD31204A38E6D /* JLToast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 652C3A681A5AE68BB2090B4D9E1FEC69 /* JLToast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80F496237530D382A045A29654D8C11C /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2270C820DA40E2C27039104FCA26F3CA /* ServerTrustPolicy.swift */; };
+		82971968CBDAB224212EEB4607C9FB8D /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9661CA15B353F9757517C438BED06506 /* Result.swift */; };
+		8399DBEE3E2D98EB1F466132E476F4D9 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD9100E90C4647F7FF2D171B5697B05 /* MultipartFormData.swift */; };
+		85B025A2256DAADCFAAAE0EC1C707B6E /* JLToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F00A4A2B07C6DD844DF7389161BA6AE6 /* JLToast-dummy.m */; };
+		8CCB095B04E579CC2787504EC1839338 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91413329813FA6FE5A78842159E69621 /* Foundation.framework */; };
+		91FECCA39A4C3F34664B8A7B45BBD781 /* Pods-taiga-ios-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 071B4C36FEBB13E4451751E29246E8A5 /* Pods-taiga-ios-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96D99D0C2472535A169DED65CB231CD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91413329813FA6FE5A78842159E69621 /* Foundation.framework */; };
+		A2C172FE407C0BC3478ADCA91A6C9CEC /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F399578735639973746A73138B8179 /* Manager.swift */; };
+		A3505FA2FB3067D53847AD288AC04F03 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA4E7B8ABB11F8E512FD8661C1C97BB /* Download.swift */; };
+		A66F185A73A28575D9F1D785E3DDCB10 /* JLToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01817F91FF1C5F085AE9885DB2D3CD4F /* JLToastView.swift */; };
+		AC3BEB5A19B9F63D6B252154B4B82CD8 /* Pods-taiga-ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD0B7DBACB6AE383643654DB9650844 /* Pods-taiga-ios-dummy.m */; };
+		B0FB4B01682814B9E3D32F9DC4A5E762 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755F7B5AFE6DC097CDC21D77B7D62DAB /* Alamofire.swift */; };
+		B6D2DC3E3DA44CD382B9B425F40E11C1 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D40E681C08F97EB6AAC3035AAD8CD8D0 /* Alamofire-dummy.m */; };
+		BA4C424B853B123D2ABA74FAED216057 /* JLToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB47ACD5457ADEACC79BDD0FD74CD28 /* JLToast.swift */; };
+		C75519F0450166A6F28126ECC7664E9C /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E23EBEE5214D954674B19727E5FB06B /* Validation.swift */; };
+		CCA2ED2E7B2536228E0B1504095614A2 /* JLToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 6823E44C7AB2FC7E27CF7839F0030EA7 /* JLToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD50B292F18937CC5F25757C551B6F22 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DE615671731BF3AEFB3CB1F984FA8F /* UIKit.framework */; };
+		D21B7325B3642887BFBE977E021F2D26 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AA3F8AA6582EA04FC1FEBF08B6F445 /* ResponseSerialization.swift */; };
+		D75CA395D510E08C404E55F5BDAE55CE /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76E3E78286D05997C759B603E863D76 /* Error.swift */; };
+		FC14480CECE872865A9C6E584F886DA3 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DDD7C4CFC0C2CA3F354AC587266D44 /* Request.swift */; };
+		FEF0D7653948988B804226129471C1EC /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF5FE6A78D98B1ED394644010C8F58D /* Stream.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0D0B7816A57BC05D3337C1163C454B2B /* PBXContainerItemProxy */ = {
+		0BDF9724BAA436E8A88D11CB7D593A07 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 103171B97A61133466EFAF30F8CFA97E;
+			remoteGlobalIDString = 432ECC54282C84882B482CCB4CF227FC;
 			remoteInfo = Alamofire;
+		};
+		314355DE82D5F9E68D1410C567BF1868 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 029086F960604A9F282172DEF7EA8A34;
+			remoteInfo = JLToast;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		011F2D7E29ABD9D98D21F65036E9D5EC /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
-		11F6ACDEAF934C724C43EDA6C2368802 /* Pods-taiga-ios-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-taiga-ios-umbrella.h"; sourceTree = "<group>"; };
-		22A0E5CADD7C0CCE25D2E2B99BF2A9CE /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
-		276CCD05B982D31CE342C032D19641B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		2B27EEA8EF212C3F8332461B551D0A7C /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		3A0E9F7ED517069B9D7E17E4E697DCEA /* Pods-taiga-ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-taiga-ios-dummy.m"; sourceTree = "<group>"; };
-		479832D329C6166447A97F03DC90EF11 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		4B4D210629BD73E72EFAAD1A88463498 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
-		52618A6940FA85582DDB088747FA49D5 /* Stream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = Source/Stream.swift; sourceTree = "<group>"; };
-		5400ED64816C48F167EFA367296B3CB0 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		5A19954B6B23CC789489A04BB2A04642 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		600D59FC9D161052EC47BDFF794D8B95 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		01817F91FF1C5F085AE9885DB2D3CD4F /* JLToastView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JLToastView.swift; path = JLToast/JLToastView.swift; sourceTree = "<group>"; };
+		071B4C36FEBB13E4451751E29246E8A5 /* Pods-taiga-ios-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-taiga-ios-umbrella.h"; sourceTree = "<group>"; };
+		0E23EBEE5214D954674B19727E5FB06B /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		10F5BAA3692F327B36247E943EFD3020 /* Pods_taiga_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taiga_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16F399578735639973746A73138B8179 /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
+		17AA3F8AA6582EA04FC1FEBF08B6F445 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		18B6F80EF014D8AF1DB92000DD0B60C2 /* JLToastCenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JLToastCenter.swift; path = JLToast/JLToastCenter.swift; sourceTree = "<group>"; };
+		2270C820DA40E2C27039104FCA26F3CA /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		283517D0DB43DF5BE57858EF3A9D0B61 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2969077D082089BF38BA9F676638E7E8 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		2CBFE2224B60FA15D751ADB9F67B46DE /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
+		2DD11E4F57914D6F0E44EC84546D4C40 /* Pods-taiga-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-taiga-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		62A9BFBAC40480527E1DEF60706EB272 /* Pods-taiga-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-taiga-ios.release.xcconfig"; sourceTree = "<group>"; };
+		63B67E657BB58014645F23012E4F3D0C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		652C3A681A5AE68BB2090B4D9E1FEC69 /* JLToast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLToast-umbrella.h"; sourceTree = "<group>"; };
 		65A5FC75BE4BA2AF26EEFC1AA8A4FBA6 /* Pods-taiga-ios-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-taiga-ios-acknowledgements.markdown"; sourceTree = "<group>"; };
-		664D3ED8116EABC7862BA666C1A72DBC /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
-		71BBFE7A10FA870F3786344781AD5A53 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		67C9AA2B86DC6A4031866C071E3DB637 /* JLToast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JLToast.modulemap; sourceTree = "<group>"; };
+		6823E44C7AB2FC7E27CF7839F0030EA7 /* JLToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLToast.h; path = JLToast/JLToast.h; sourceTree = "<group>"; };
+		6CD57FBD47FE28DFF9FF2AD2806E1F2E /* JLToast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JLToast.xcconfig; sourceTree = "<group>"; };
+		755F7B5AFE6DC097CDC21D77B7D62DAB /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		78BD4541974E15A0E70D5266D4528F7E /* JLToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JLToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DD9100E90C4647F7FF2D171B5697B05 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		84C7DE293C889D338DBF5B24D4823149 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		88029B8BF7451151D8B9A569016A27CC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8FB3E0B1DF6CF17DE37F07930C7AC474 /* Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
+		8BF5FE6A78D98B1ED394644010C8F58D /* Stream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = Source/Stream.swift; sourceTree = "<group>"; };
+		91413329813FA6FE5A78842159E69621 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		93E818CBD7C26C68759653C9425CB8AF /* Pods-taiga-ios-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-taiga-ios-frameworks.sh"; sourceTree = "<group>"; };
-		94A1695EFF57B829655CAE11ABBD7D5A /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
-		978A95FDBD59C8697C66F84C72FC2535 /* Pods_taiga_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taiga_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D1100F0CC167BE766B94AE61B4442EC /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
-		A39E1716AE173A12EA35DF964982C351 /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
-		AE7F93399AF772DB35BC4128F6231ACC /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		9661CA15B353F9757517C438BED06506 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		A7391758D433D358D53EF4554A02F9CA /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		AE30552669EC885873DF41DBF4F30EB0 /* JLToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLToast-prefix.pch"; sourceTree = "<group>"; };
+		AEB47ACD5457ADEACC79BDD0FD74CD28 /* JLToast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JLToast.swift; path = JLToast/JLToast.swift; sourceTree = "<group>"; };
+		B19E00AC215E56DD7754A109183C34BC /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B282061459D28B94B3C5A27A1554AFC0 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BD9F0759A89BC37A9D11F8907BB669B2 /* Pods-taiga-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-taiga-ios.debug.xcconfig"; sourceTree = "<group>"; };
-		BF07D787EB59DA2287AB33640701ED90 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
-		C1F422624B218EC51EA46240D1F1077E /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		C06942FE0988E4E4EBB336697C0CB1C9 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		C21766614732A1B5E9C1B4BD7013C620 /* Pods-taiga-ios-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-taiga-ios-resources.sh"; sourceTree = "<group>"; };
 		C36CF9C9FFA70A2F65FE3C1D39D535F8 /* Pods-taiga-ios.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-taiga-ios.modulemap"; sourceTree = "<group>"; };
-		C467221DFF20608D279D2312207DCA0E /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		C7F85CD4A453995404A3B592E0D8673C /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
-		E8C80D99391EAF37066E88165B1A8DFD /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		EE3C24F0D42C3157A5F4B61B33901F7B /* Pods-taiga-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-taiga-ios.release.xcconfig"; sourceTree = "<group>"; };
+		D40E681C08F97EB6AAC3035AAD8CD8D0 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		D9DE615671731BF3AEFB3CB1F984FA8F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E0D2B43B433775A9DDC96FFBD72AC6C3 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		E642B1A057ADA2ABEF90BE2417F349C1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		E76E3E78286D05997C759B603E863D76 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
+		EAA4E7B8ABB11F8E512FD8661C1C97BB /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
+		F00A4A2B07C6DD844DF7389161BA6AE6 /* JLToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JLToast-dummy.m"; sourceTree = "<group>"; };
+		F3DDD7C4CFC0C2CA3F354AC587266D44 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		F488B2EF382AF7F0076AE8D6838694B2 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		FBD0B7DBACB6AE383643654DB9650844 /* Pods-taiga-ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-taiga-ios-dummy.m"; sourceTree = "<group>"; };
 		FEF9E75C218F4C970780EC396A5F4C05 /* Pods-taiga-ios-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-taiga-ios-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		520A652B746BCCC1E196695687482162 /* Frameworks */ = {
+		7B385674FCB979F3405617A7D7F331E1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D07F0B444BE85DF0141C2ECBBAAA3C5 /* Foundation.framework in Frameworks */,
+				8CCB095B04E579CC2787504EC1839338 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6E88EEB9E4A8C1F87FBEFF4B5D33DFE2 /* Frameworks */ = {
+		A5AE1D340C4A0691EC28EEA8241C9FCD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0439809EF9BCFBDEB4582048AD3F7EE /* Foundation.framework in Frameworks */,
+				96D99D0C2472535A169DED65CB231CD7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F035C1C3B2BC0AAB485CC5EF8252A051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A2DA62438CCAA8D0EE1DF05E05D2F1 /* Foundation.framework in Frameworks */,
+				1C9B3720414A90252912D0EC79A3065E /* QuartzCore.framework in Frameworks */,
+				CD50B292F18937CC5F25757C551B6F22 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0950A478DB6DB7F3BBFD88DF2A5EEA04 /* JLToast */ = {
+			isa = PBXGroup;
+			children = (
+				6823E44C7AB2FC7E27CF7839F0030EA7 /* JLToast.h */,
+				AEB47ACD5457ADEACC79BDD0FD74CD28 /* JLToast.swift */,
+				18B6F80EF014D8AF1DB92000DD0B60C2 /* JLToastCenter.swift */,
+				01817F91FF1C5F085AE9885DB2D3CD4F /* JLToastView.swift */,
+				4EA94BDC7E876BCD31389DB0DDA69E78 /* Support Files */,
+			);
+			path = JLToast;
+			sourceTree = "<group>";
+		};
 		0FD13A8DA3F17B0AFA1A954A3A1C03A7 /* Pods-taiga-ios */ = {
 			isa = PBXGroup;
 			children = (
@@ -104,57 +154,103 @@
 				C36CF9C9FFA70A2F65FE3C1D39D535F8 /* Pods-taiga-ios.modulemap */,
 				65A5FC75BE4BA2AF26EEFC1AA8A4FBA6 /* Pods-taiga-ios-acknowledgements.markdown */,
 				FEF9E75C218F4C970780EC396A5F4C05 /* Pods-taiga-ios-acknowledgements.plist */,
-				3A0E9F7ED517069B9D7E17E4E697DCEA /* Pods-taiga-ios-dummy.m */,
+				FBD0B7DBACB6AE383643654DB9650844 /* Pods-taiga-ios-dummy.m */,
 				93E818CBD7C26C68759653C9425CB8AF /* Pods-taiga-ios-frameworks.sh */,
 				C21766614732A1B5E9C1B4BD7013C620 /* Pods-taiga-ios-resources.sh */,
-				11F6ACDEAF934C724C43EDA6C2368802 /* Pods-taiga-ios-umbrella.h */,
-				BD9F0759A89BC37A9D11F8907BB669B2 /* Pods-taiga-ios.debug.xcconfig */,
-				EE3C24F0D42C3157A5F4B61B33901F7B /* Pods-taiga-ios.release.xcconfig */,
+				071B4C36FEBB13E4451751E29246E8A5 /* Pods-taiga-ios-umbrella.h */,
+				2DD11E4F57914D6F0E44EC84546D4C40 /* Pods-taiga-ios.debug.xcconfig */,
+				62A9BFBAC40480527E1DEF60706EB272 /* Pods-taiga-ios.release.xcconfig */,
 			);
 			name = "Pods-taiga-ios";
 			path = "Target Support Files/Pods-taiga-ios";
 			sourceTree = "<group>";
 		};
-		20C396BA1B90EEE39D4B19FE012C4F6D /* Pods */ = {
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F184050575E69A2DFDB57EA6FE0F668E /* Alamofire */,
+				DA23025FEDA7F7FE2AACB2532BD80D14 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4EA94BDC7E876BCD31389DB0DDA69E78 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				63B67E657BB58014645F23012E4F3D0C /* Info.plist */,
+				67C9AA2B86DC6A4031866C071E3DB637 /* JLToast.modulemap */,
+				6CD57FBD47FE28DFF9FF2AD2806E1F2E /* JLToast.xcconfig */,
+				F00A4A2B07C6DD844DF7389161BA6AE6 /* JLToast-dummy.m */,
+				AE30552669EC885873DF41DBF4F30EB0 /* JLToast-prefix.pch */,
+				652C3A681A5AE68BB2090B4D9E1FEC69 /* JLToast-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JLToast";
+			sourceTree = "<group>";
+		};
+		5AD15EA258DF9937A3CF5DD15F34EE52 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				755F7B5AFE6DC097CDC21D77B7D62DAB /* Alamofire.swift */,
+				EAA4E7B8ABB11F8E512FD8661C1C97BB /* Download.swift */,
+				E76E3E78286D05997C759B603E863D76 /* Error.swift */,
+				16F399578735639973746A73138B8179 /* Manager.swift */,
+				7DD9100E90C4647F7FF2D171B5697B05 /* MultipartFormData.swift */,
+				F488B2EF382AF7F0076AE8D6838694B2 /* ParameterEncoding.swift */,
+				F3DDD7C4CFC0C2CA3F354AC587266D44 /* Request.swift */,
+				A7391758D433D358D53EF4554A02F9CA /* Response.swift */,
+				17AA3F8AA6582EA04FC1FEBF08B6F445 /* ResponseSerialization.swift */,
+				9661CA15B353F9757517C438BED06506 /* Result.swift */,
+				2270C820DA40E2C27039104FCA26F3CA /* ServerTrustPolicy.swift */,
+				8BF5FE6A78D98B1ED394644010C8F58D /* Stream.swift */,
+				2CBFE2224B60FA15D751ADB9F67B46DE /* Upload.swift */,
+				0E23EBEE5214D954674B19727E5FB06B /* Validation.swift */,
+				9860C5A6B1AAFD79FF23AFD9A4FE2B7F /* Support Files */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		5FFC772D75DE033B17B91D18BC1905D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AD15EA258DF9937A3CF5DD15F34EE52 /* Alamofire */,
+				0950A478DB6DB7F3BBFD88DF2A5EEA04 /* JLToast */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		2BCD82FF5A0B4AEF49ABD2328AFBBB72 /* Support Files */ = {
+		63C2CB9C0E456D0831CCE5ED7E0D3E05 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				600D59FC9D161052EC47BDFF794D8B95 /* Alamofire.modulemap */,
-				C7F85CD4A453995404A3B592E0D8673C /* Alamofire.xcconfig */,
-				8FB3E0B1DF6CF17DE37F07930C7AC474 /* Alamofire-Private.xcconfig */,
-				5400ED64816C48F167EFA367296B3CB0 /* Alamofire-dummy.m */,
-				C1F422624B218EC51EA46240D1F1077E /* Alamofire-prefix.pch */,
-				2B27EEA8EF212C3F8332461B551D0A7C /* Alamofire-umbrella.h */,
-				88029B8BF7451151D8B9A569016A27CC /* Info.plist */,
+				B19E00AC215E56DD7754A109183C34BC /* Alamofire.framework */,
+				78BD4541974E15A0E70D5266D4528F7E /* JLToast.framework */,
+				10F5BAA3692F327B36247E943EFD3020 /* Pods_taiga_ios.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Alamofire";
-			sourceTree = "<group>";
-		};
-		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				276CCD05B982D31CE342C032D19641B4 /* Foundation.framework */,
-			);
-			name = iOS;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				20C396BA1B90EEE39D4B19FE012C4F6D /* Pods */,
-				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				5FFC772D75DE033B17B91D18BC1905D4 /* Pods */,
+				63C2CB9C0E456D0831CCE5ED7E0D3E05 /* Products */,
 				99A9976F43CFF16CF94B50BBDBA7D676 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		9860C5A6B1AAFD79FF23AFD9A4FE2B7F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C06942FE0988E4E4EBB336697C0CB1C9 /* Alamofire.modulemap */,
+				E0D2B43B433775A9DDC96FFBD72AC6C3 /* Alamofire.xcconfig */,
+				D40E681C08F97EB6AAC3035AAD8CD8D0 /* Alamofire-dummy.m */,
+				2969077D082089BF38BA9F676638E7E8 /* Alamofire-prefix.pch */,
+				B282061459D28B94B3C5A27A1554AFC0 /* Alamofire-umbrella.h */,
+				283517D0DB43DF5BE57858EF3A9D0B61 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
 		99A9976F43CFF16CF94B50BBDBA7D676 /* Targets Support Files */ = {
@@ -165,74 +261,90 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		DA23025FEDA7F7FE2AACB2532BD80D14 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+				91413329813FA6FE5A78842159E69621 /* Foundation.framework */,
+				E642B1A057ADA2ABEF90BE2417F349C1 /* QuartzCore.framework */,
+				D9DE615671731BF3AEFB3CB1F984FA8F /* UIKit.framework */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5A19954B6B23CC789489A04BB2A04642 /* Alamofire.framework */,
-				978A95FDBD59C8697C66F84C72FC2535 /* Pods_taiga_ios.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		F184050575E69A2DFDB57EA6FE0F668E /* Alamofire */ = {
-			isa = PBXGroup;
-			children = (
-				71BBFE7A10FA870F3786344781AD5A53 /* Alamofire.swift */,
-				A39E1716AE173A12EA35DF964982C351 /* Download.swift */,
-				664D3ED8116EABC7862BA666C1A72DBC /* Error.swift */,
-				011F2D7E29ABD9D98D21F65036E9D5EC /* Manager.swift */,
-				E8C80D99391EAF37066E88165B1A8DFD /* MultipartFormData.swift */,
-				479832D329C6166447A97F03DC90EF11 /* ParameterEncoding.swift */,
-				9D1100F0CC167BE766B94AE61B4442EC /* Request.swift */,
-				94A1695EFF57B829655CAE11ABBD7D5A /* Response.swift */,
-				AE7F93399AF772DB35BC4128F6231ACC /* ResponseSerialization.swift */,
-				BF07D787EB59DA2287AB33640701ED90 /* Result.swift */,
-				4B4D210629BD73E72EFAAD1A88463498 /* ServerTrustPolicy.swift */,
-				52618A6940FA85582DDB088747FA49D5 /* Stream.swift */,
-				22A0E5CADD7C0CCE25D2E2B99BF2A9CE /* Upload.swift */,
-				C467221DFF20608D279D2312207DCA0E /* Validation.swift */,
-				2BCD82FF5A0B4AEF49ABD2328AFBBB72 /* Support Files */,
-			);
-			path = Alamofire;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		073EE24E225290202DFC0E911E2CEE2E /* Headers */ = {
+		291E3D3E1146BE15E93804E63C8BAB9F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10EB5D106E5C07C1D3CAEEF74D59EC34 /* Pods-taiga-ios-umbrella.h in Headers */,
+				6659D355BE4D70BB751DD31204A38E6D /* JLToast-umbrella.h in Headers */,
+				CCA2ED2E7B2536228E0B1504095614A2 /* JLToast.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ABC27CA3F2A9FE569108BB5AAF9DA9A3 /* Headers */ = {
+		5F7B61281F714E2A64A51E80A2C9C062 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CD1F3AA826DB25B838FF6E73D550294 /* Alamofire-umbrella.h in Headers */,
+				2C5450AC69398958CF6F7539EF7D99E5 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEE5BA23B79DDC75E5EE17FFEEF292F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FECCA39A4C3F34664B8A7B45BBD781 /* Pods-taiga-ios-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		103171B97A61133466EFAF30F8CFA97E /* Alamofire */ = {
+		029086F960604A9F282172DEF7EA8A34 /* JLToast */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80AD22FC707CFE80183258354D1260F8 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildConfigurationList = 4F969D14B4C5D1748A484D884833CFB3 /* Build configuration list for PBXNativeTarget "JLToast" */;
 			buildPhases = (
-				F8A487EE82757D443AE57B1377D90A10 /* Sources */,
-				6E88EEB9E4A8C1F87FBEFF4B5D33DFE2 /* Frameworks */,
-				ABC27CA3F2A9FE569108BB5AAF9DA9A3 /* Headers */,
+				CE1B71707CF309435F3FAABD00CEF7ED /* Sources */,
+				F035C1C3B2BC0AAB485CC5EF8252A051 /* Frameworks */,
+				291E3D3E1146BE15E93804E63C8BAB9F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JLToast;
+			productName = JLToast;
+			productReference = 78BD4541974E15A0E70D5266D4528F7E /* JLToast.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2C41F0CE39A66029CAE4C96685A3631E /* Pods-taiga-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 081354633498EBEB730E075BA9B7C792 /* Build configuration list for PBXNativeTarget "Pods-taiga-ios" */;
+			buildPhases = (
+				7985E1F9E5EE970A30FF3ED5BD468051 /* Sources */,
+				7B385674FCB979F3405617A7D7F331E1 /* Frameworks */,
+				AEE5BA23B79DDC75E5EE17FFEEF292F9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8A5F880C860FAA14CCE7C90510AC0D7 /* PBXTargetDependency */,
+				E92B303318CE3DC9840D3561CA394AEB /* PBXTargetDependency */,
+			);
+			name = "Pods-taiga-ios";
+			productName = "Pods-taiga-ios";
+			productReference = 10F5BAA3692F327B36247E943EFD3020 /* Pods_taiga_ios.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		432ECC54282C84882B482CCB4CF227FC /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B2B2DA2F7F80D41B1FDB5FACFA4B3DE /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				EF659EFF40D426A3A32A82CDB98CC6EE /* Sources */,
+				A5AE1D340C4A0691EC28EEA8241C9FCD /* Frameworks */,
+				5F7B61281F714E2A64A51E80A2C9C062 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -240,25 +352,7 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = 5A19954B6B23CC789489A04BB2A04642 /* Alamofire.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		2B9884EA3740F165044E7588C7EAC7D8 /* Pods-taiga-ios */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 81A42481C4726BF86B85022423E90937 /* Build configuration list for PBXNativeTarget "Pods-taiga-ios" */;
-			buildPhases = (
-				8AC6A38AB0B7A19C7B9EAA03FA425139 /* Sources */,
-				520A652B746BCCC1E196695687482162 /* Frameworks */,
-				073EE24E225290202DFC0E911E2CEE2E /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				69534DB720F9A11A4C955BBB6BCFE8D3 /* PBXTargetDependency */,
-			);
-			name = "Pods-taiga-ios";
-			productName = "Pods-taiga-ios";
-			productReference = 978A95FDBD59C8697C66F84C72FC2535 /* Pods_taiga_ios.framework */;
+			productReference = B19E00AC215E56DD7754A109183C34BC /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -278,62 +372,135 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			productRefGroup = 63C2CB9C0E456D0831CCE5ED7E0D3E05 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				103171B97A61133466EFAF30F8CFA97E /* Alamofire */,
-				2B9884EA3740F165044E7588C7EAC7D8 /* Pods-taiga-ios */,
+				432ECC54282C84882B482CCB4CF227FC /* Alamofire */,
+				029086F960604A9F282172DEF7EA8A34 /* JLToast */,
+				2C41F0CE39A66029CAE4C96685A3631E /* Pods-taiga-ios */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8AC6A38AB0B7A19C7B9EAA03FA425139 /* Sources */ = {
+		7985E1F9E5EE970A30FF3ED5BD468051 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B73755FD321595FE5C2CDB33E426961 /* Pods-taiga-ios-dummy.m in Sources */,
+				AC3BEB5A19B9F63D6B252154B4B82CD8 /* Pods-taiga-ios-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F8A487EE82757D443AE57B1377D90A10 /* Sources */ = {
+		CE1B71707CF309435F3FAABD00CEF7ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8627534A70CB8D3CB09C1591925DA97C /* Alamofire-dummy.m in Sources */,
-				8EAD62C95F5C0D5889BC502A763545CD /* Alamofire.swift in Sources */,
-				B3EB5E66DFCFF078E56AD3AC9516E59A /* Download.swift in Sources */,
-				5396C7848A29A0F9C361AAC774282AE0 /* Error.swift in Sources */,
-				B575F39C2ED167A9C378645A7AEB75C4 /* Manager.swift in Sources */,
-				9BB897F79746EABF4AA94C382C2701C2 /* MultipartFormData.swift in Sources */,
-				7761C19518082BA2A2A635A034F381EE /* ParameterEncoding.swift in Sources */,
-				10CB244D7AB9C4B990C23C72534C9F10 /* Request.swift in Sources */,
-				F6E480C3E3A17EE39CC60A01FC20749A /* Response.swift in Sources */,
-				E9162250ADA619CCD43E795747CFC781 /* ResponseSerialization.swift in Sources */,
-				3BA5A2D94C3423F9D3A6F6A84635E43E /* Result.swift in Sources */,
-				44ACB38022113CD17201B1C2D0AEEDB0 /* ServerTrustPolicy.swift in Sources */,
-				49A2FB2634ECA7F0D62F96FD27A8A4DB /* Stream.swift in Sources */,
-				3DCE071D254577ED4DD9A937927F6D4C /* Upload.swift in Sources */,
-				21A210B430C8B0001E91794A6DC8FBC1 /* Validation.swift in Sources */,
+				85B025A2256DAADCFAAAE0EC1C707B6E /* JLToast-dummy.m in Sources */,
+				BA4C424B853B123D2ABA74FAED216057 /* JLToast.swift in Sources */,
+				4B8366BDA7E9D6F1174A49CC80A7C1B1 /* JLToastCenter.swift in Sources */,
+				A66F185A73A28575D9F1D785E3DDCB10 /* JLToastView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF659EFF40D426A3A32A82CDB98CC6EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D2DC3E3DA44CD382B9B425F40E11C1 /* Alamofire-dummy.m in Sources */,
+				B0FB4B01682814B9E3D32F9DC4A5E762 /* Alamofire.swift in Sources */,
+				A3505FA2FB3067D53847AD288AC04F03 /* Download.swift in Sources */,
+				D75CA395D510E08C404E55F5BDAE55CE /* Error.swift in Sources */,
+				A2C172FE407C0BC3478ADCA91A6C9CEC /* Manager.swift in Sources */,
+				8399DBEE3E2D98EB1F466132E476F4D9 /* MultipartFormData.swift in Sources */,
+				4DE5FCC41D100B113B6645EA64410F16 /* ParameterEncoding.swift in Sources */,
+				FC14480CECE872865A9C6E584F886DA3 /* Request.swift in Sources */,
+				03F494989CC1A8857B68A317D5D6860F /* Response.swift in Sources */,
+				D21B7325B3642887BFBE977E021F2D26 /* ResponseSerialization.swift in Sources */,
+				82971968CBDAB224212EEB4607C9FB8D /* Result.swift in Sources */,
+				80F496237530D382A045A29654D8C11C /* ServerTrustPolicy.swift in Sources */,
+				FEF0D7653948988B804226129471C1EC /* Stream.swift in Sources */,
+				0681ADC8BAE2C3185F13487BAAB4D9DD /* Upload.swift in Sources */,
+				C75519F0450166A6F28126ECC7664E9C /* Validation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		69534DB720F9A11A4C955BBB6BCFE8D3 /* PBXTargetDependency */ = {
+		B8A5F880C860FAA14CCE7C90510AC0D7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
-			target = 103171B97A61133466EFAF30F8CFA97E /* Alamofire */;
-			targetProxy = 0D0B7816A57BC05D3337C1163C454B2B /* PBXContainerItemProxy */;
+			target = 432ECC54282C84882B482CCB4CF227FC /* Alamofire */;
+			targetProxy = 0BDF9724BAA436E8A88D11CB7D593A07 /* PBXContainerItemProxy */;
+		};
+		E92B303318CE3DC9840D3561CA394AEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JLToast;
+			target = 029086F960604A9F282172DEF7EA8A34 /* JLToast */;
+			targetProxy = 314355DE82D5F9E68D1410C567BF1868 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		16F06FC035E8537543684FEA2D8388C8 /* Debug */ = {
+		106B38793BA3EA482FA6A7F61D784B03 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD9F0759A89BC37A9D11F8907BB669B2 /* Pods-taiga-ios.debug.xcconfig */;
+			baseConfigurationReference = 6CD57FBD47FE28DFF9FF2AD2806E1F2E /* JLToast.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JLToast/JLToast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JLToast/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JLToast/JLToast.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JLToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		190022FF89D0EBA65B14EAA6CFC94243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CD57FBD47FE28DFF9FF2AD2806E1F2E /* JLToast.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JLToast/JLToast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JLToast/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JLToast/JLToast.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JLToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		913DA08E06C227C9D4FFAA770CCE33FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62A9BFBAC40480527E1DEF60706EB272 /* Pods-taiga-ios.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -346,30 +513,30 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-taiga-ios/Pods-taiga-ios.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = Pods_taiga_ios;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		43A530D59A7A6A3AC728EFE0093B5467 /* Debug */ = {
+		A3427C918F24207B5FD3A44958345D7E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8FB3E0B1DF6CF17DE37F07930C7AC474 /* Alamofire-Private.xcconfig */;
+			baseConfigurationReference = E0D2B43B433775A9DDC96FFBD72AC6C3 /* Alamofire.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 3.0.1;
+				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 3;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
@@ -378,38 +545,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4E7D15C447FAE6FE2D8875D86EB41809 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE3C24F0D42C3157A5F4B61B33901F7B /* Pods-taiga-ios.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-taiga-ios/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-taiga-ios/Pods-taiga-ios.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_taiga_ios;
+				PRODUCT_NAME = Alamofire;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -457,15 +594,46 @@
 			};
 			name = Debug;
 		};
-		F2F0DD2171621FF2F54799BC40A2AD0F /* Release */ = {
+		C048988A4A2479AFD2C5AF0A6D8D4FF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8FB3E0B1DF6CF17DE37F07930C7AC474 /* Alamofire-Private.xcconfig */;
+			baseConfigurationReference = 2DD11E4F57914D6F0E44EC84546D4C40 /* Pods-taiga-ios.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 3.0.1;
+				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 3;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-taiga-ios/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-taiga-ios/Pods-taiga-ios.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_taiga_ios;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C993D8405F342C8E23BAD4EDF32D79E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0D2B43B433775A9DDC96FFBD72AC6C3 /* Alamofire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
@@ -474,15 +642,16 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = Alamofire;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -521,6 +690,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		081354633498EBEB730E075BA9B7C792 /* Build configuration list for PBXNativeTarget "Pods-taiga-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C048988A4A2479AFD2C5AF0A6D8D4FF8 /* Debug */,
+				913DA08E06C227C9D4FFAA770CCE33FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -530,20 +708,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80AD22FC707CFE80183258354D1260F8 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+		4F969D14B4C5D1748A484D884833CFB3 /* Build configuration list for PBXNativeTarget "JLToast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				43A530D59A7A6A3AC728EFE0093B5467 /* Debug */,
-				F2F0DD2171621FF2F54799BC40A2AD0F /* Release */,
+				190022FF89D0EBA65B14EAA6CFC94243 /* Debug */,
+				106B38793BA3EA482FA6A7F61D784B03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		81A42481C4726BF86B85022423E90937 /* Build configuration list for PBXNativeTarget "Pods-taiga-ios" */ = {
+		8B2B2DA2F7F80D41B1FDB5FACFA4B3DE /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				16F06FC035E8537543684FEA2D8388C8 /* Debug */,
-				4E7D15C447FAE6FE2D8875D86EB41809 /* Release */,
+				C993D8405F342C8E23BAD4EDF32D79E0 /* Debug */,
+				A3427C918F24207B5FD3A44958345D7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

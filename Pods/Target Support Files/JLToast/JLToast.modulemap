@@ -1,0 +1,6 @@
+framework module JLToast {
+  umbrella header "JLToast-umbrella.h"
+
+  export *
+  module * { export * }
+}

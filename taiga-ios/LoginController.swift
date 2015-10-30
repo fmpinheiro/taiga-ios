@@ -8,6 +8,7 @@
 
 import UIKit
 import Alamofire
+import JLToast
 
 class LoginController: UIViewController {
 
@@ -38,7 +39,7 @@ class LoginController: UIViewController {
                     (view as! MainController).setUser(user)
                     self.presentViewController(view, animated:true, completion:nil)
                 } else {
-                    print("TODO: Let the user know that the login failed")
+                    JLToast.makeText("Login failed").show()
                 }
                 self.view.userInteractionEnabled = true
                 self.loading.stopAnimating()
