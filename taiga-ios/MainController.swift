@@ -9,7 +9,7 @@
 import UIKit
 import Alamofire
 
-class MainController: UIViewController, UITableViewDataSource {
+class MainController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     let LIST_PROJECTS_URL = "https://api.taiga.io/api/v1/projects"
     
@@ -21,6 +21,7 @@ class MainController: UIViewController, UITableViewDataSource {
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.dataSource = self
+        tableView.delegate = self
         print("Listing projects using this auth token: \(user.authToken!) 😎")
         let headers = ["Authorization": "Bearer \(user.authToken!)"]
         Alamofire.request(.GET, LIST_PROJECTS_URL + "?member=\(user.id!)", headers: headers, encoding: .JSON).responseCollection { (response: Response<[Project], NSError>) in
@@ -57,6 +58,11 @@ class MainController: UIViewController, UITableViewDataSource {
         cell.textLabel!.text = projects[indexPath.row].name
         cell.layoutMargins = UIEdgeInsetsZero
         return cell
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        print("Project name: " + projects[indexPath.row].name!)
+        print("Project description: " + projects[indexPath.row].description!)
     }
 }
     

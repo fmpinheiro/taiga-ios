@@ -77,8 +77,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="GDK-hg-65c">
-                                <rect key="frame" x="0.0" y="28" width="600" height="572"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="GDK-hg-65c">
+                                <rect key="frame" x="0.0" y="72" width="600" height="528"/>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -98,14 +98,22 @@
                                     <outlet property="dataSource" destination="dGD-GD-3zP" id="x6q-EO-rN4"/>
                                 </connections>
                             </tableView>
+                            <navigationBar contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iX3-mL-vul">
+                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <animations/>
+                                <items>
+                                    <navigationItem title="Projects" id="wtD-09-SX9"/>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="GDK-hg-65c" secondAttribute="trailing" constant="-20" id="6N4-oq-9WQ"/>
                             <constraint firstItem="GDK-hg-65c" firstAttribute="leading" secondItem="x2y-Sh-NhT" secondAttribute="leadingMargin" constant="-20" id="MDt-8f-SjQ"/>
-                            <constraint firstItem="GDK-hg-65c" firstAttribute="top" secondItem="uAp-0a-QAx" secondAttribute="bottom" constant="8" id="Xfs-Ao-96u"/>
+                            <constraint firstItem="GDK-hg-65c" firstAttribute="top" secondItem="iX3-mL-vul" secondAttribute="bottom" id="OAg-cb-PWk"/>
                             <constraint firstItem="fhv-Wm-DmL" firstAttribute="top" secondItem="GDK-hg-65c" secondAttribute="bottom" id="dxh-gv-hsz"/>
+                            <constraint firstItem="iX3-mL-vul" firstAttribute="centerX" secondItem="x2y-Sh-NhT" secondAttribute="centerX" id="rxH-Fk-dee"/>
                         </constraints>
                     </view>
                     <connections>
